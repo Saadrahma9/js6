@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!----------- CSS LINK  ------------>
+  <link rel="stylesheet" href="./css/style.css">
+  <!--------- BOXICONS CSS  ---------->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!------------------ DARK MODE NAVBAR -------------------->
+
+  <nav>
+    <div class="nav_bar">
+      <span class="logo"><a href="#">UNITY ESPORTS</a></span>
+      <div class="menu">
+        <ul class="nav_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="darklight_searchbox">
+        <div class="dark_light">
+          <i class='bx bx-moon moon'></i>
+          <i class='bx bx-sun sun'></i>
+        </div>
+        <div class="searchbox">
+          <i class='bx bx-x cencle'></i>
+          <i class='bx bx-search search'></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--------------------- ANALOG CLOCK  --------------------->
+  <section id="analog_clock">
+    <div class="container">
+      <div class="clock">
+        <div style="--clr: #ff3d58; --ht:120px; --wt:9px;" class="hand" id="hour"><i></i></div>
+        <div style="--clr: #00a6ff; --ht:150px; --wt:7px;" class="hand" id="minute"><i></i></div>
+        <div style="--clr: #fff; --ht:170px; --wt:4px;" class="hand" id="second"><i></i></div>
+
+
+        <span style="--j:1"><b>1</b></span>
+        <span style="--j:2"><b>2</b></span>
+        <span style="--j:3"><b>3</b></span>
+        <span style="--j:4"><b>4</b></span>
+        <span style="--j:5"><b>5</b></span>
+        <span style="--j:6"><b>6</b></span>
+        <span style="--j:7"><b>7</b></span>
+        <span style="--j:8"><b>8</b></span>
+        <span style="--j:9"><b>9</b></span>
+        <span style="--j:10"><b>10</b></span>
+        <span style="--j:11"><b>11</b></span>
+        <span style="--j:12"><b>12</b></span>
+
+      </div>
+    </div>
+  </section>
+
+  <!--------------------- DIGITEL CLOCK  --------------------->
+
+  <section id="digitel_clock">
+    <div class="hero">
+      <div class="container_2">
+        <div class="clock_2">
+          <span id="hrs">00</span>
+          <span>:</span>
+          <span id="min">00</span>
+          <span>:</span>
+          <span id="sec">00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-------------------  STOPWATCH  ------------------->
+
+  <section id="stopwatch">
+    <div class="container_3">
+      <div class="timer_display">
+        <span id="timer">00 : 00 : 00 : 000</span>
+      </div>
+      <div class="buttons">
+        <button id="start_timer">start</button>
+        <button id="pause_timer">pause</button>
+        <button id="reset_timer">reset</button>
+      </div>
+    </div>
+  </section>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
